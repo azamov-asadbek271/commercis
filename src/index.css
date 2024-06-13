@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .con-align {
+        @apply max-w-[1200px] w-full px-5 mx-auto
+    }
+
+    .black-border {
+        @apply border-solid border-2 border-black
+    }
+}
